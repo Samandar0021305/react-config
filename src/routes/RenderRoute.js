@@ -1,9 +1,9 @@
-const Home = React.lazy(()=>import("../page/Home"))
+const Home = React.lazy(() => import("../page/Home"))
 
 export const route = [
     {
-        id:1,
-        path:"/",
-        component:Home
+        id: 1,
+        path: "/",
+        component: Home
     }
 ]
